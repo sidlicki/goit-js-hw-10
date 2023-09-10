@@ -51,7 +51,7 @@ box-shadow: 0px 3px 30px rgba(211, 163, 31, 0.5);
 display: none;
 flex-direction: column;
 align-items: center;
-max-width: 25%;
+max-width: 35%;
 height: 70%;
 margin-top: 20px;
 margin-left: auto;
@@ -60,9 +60,8 @@ justify-content: space-evenly;
 }
 
 .cat-info > img{
-max-width: 80%;
 width: auto;
-height: 300px;
+height: 350px;
 border-radius: 10px; 
 box-shadow: 0px 3px 30px rgba(31, 103, 211, 0.5);
 ;}
@@ -70,5 +69,12 @@ box-shadow: 0px 3px 30px rgba(31, 103, 211, 0.5);
 
 .breed-select{
 display: none;
-margin-top: 1px;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+max-width: 50%;
+}
+
+body{
+  background-color: #f5f5dc17;
 }
