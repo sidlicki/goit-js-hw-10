@@ -2,6 +2,7 @@
 import { fetchBreeds, fetchCatByBreed } from './cat-api';
 import Notiflix from 'notiflix';
 import SlimSelect from 'slim-select';
+import "slim-select/dist/slimselect.css"
 
 // Отримуємо посилання на елементи DOM, які нам потрібні
 const selectCat = document.querySelector('.breed-select');
@@ -106,7 +107,7 @@ function onSelect() {
   new SlimSelect({
     select: '#selectElement',
     settings: {
-      showSearch: false,
+      showSearch: true,
       searchHighlight: true,
       placeholderText: 'Оберіть породу кота',
     },
